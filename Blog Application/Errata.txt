@@ -1,0 +1,14 @@
+Page 23
+status of CharField attribute in MODEL becomes
+status of varchar(10) whereas max_length of 2 was specified. Shouldn't the DB TABLE be varchar(2)
+
+Page 68
+Regarding the email, it will be nice if you added hints into why an email might not send
+I was facing TimeOutError until i changed my network provider, so that's an issue with ISPs that others might encounter
+
+Page 69
+...we have declared a sentvariable with the initial value False, not True (initially)
+
+Page 136
+This query uses PostgreSQL to create a search vector for the *body* field and a search query from the 
+term django. I think the expected field should be the title field since that's where the search query was performed
